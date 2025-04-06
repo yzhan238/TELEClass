@@ -7,7 +7,7 @@ import pickle
 import numpy as np
 from torch.utils.data import TensorDataset, DataLoader, SequentialSampler
 from sklearn.metrics import f1_score
-from core_class_annotation import Node, createGraph
+from utils import Node, createGraph
 import queue
 from transformers import AutoTokenizer, AutoModel
 import argparse
